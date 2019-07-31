@@ -3,7 +3,6 @@ import { Container, Row, Col } from "reactstrap";
 import questions from "./questions.json";
 
 const index = () => {
-  console.log(questions);
   return (
     <Container className="py-md-5 py-3">
       <Row>
@@ -17,8 +16,8 @@ const index = () => {
       <Row className="py-3">
         <Col>
           {questions.length > 0
-            ? questions.map(q => (
-                <div className="py-3">
+            ? questions.map((q, index) => (
+                <div className="py-3" key={index}>
                   <h4 className="font-weight-bold">{q.question}</h4>
                   <p>{q.answer}</p>
                 </div>
