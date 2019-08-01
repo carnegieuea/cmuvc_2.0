@@ -51,7 +51,7 @@ const Details = () => {
                     <IoIosCalendar /> March 1, 2020 - Application Deadline
                   </p>
                   <p>
-                    <IoIosCalendar /> March 15, 2019 - Finalists Announced
+                    <IoIosCalendar /> March 15, 2020 - Finalists Announced
                   </p>
                   <p>
                     <IoIosCalendar /> Date TBD, 2020 - Competition Finals at CMU
