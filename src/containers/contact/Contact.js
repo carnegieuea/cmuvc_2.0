@@ -12,7 +12,7 @@ import {
 import { IoMdMail } from "react-icons/io";
 import SamarthImg from "../../assets/avatars/samarth.JPG";
 import SebastianImg from "../../assets/avatars/sebastian.JPG";
-import LucyImg from "../../assets/avatars/lucy.jpeg";
+import OscarImg from "../../assets/avatars/oscar.JPG";
 
 const Contact = () => {
   return (
@@ -22,7 +22,7 @@ const Contact = () => {
           <Col className="pb-4">
             <h1 className="display-5 font-weight-bolder text-black">
               Contact Us.
-              <a href="mailto:sgowda@andrew.cmu.edu;yukaiy@andrew.cmu.edu;lqz@andrew.cmu.edu">
+              <a href="mailto:sgowda@andrew.cmu.edu;yukaiy@andrew.cmu.edu;otk@andrew.cmu.edu">
                 <Button color="dark" size="sm" className="mx-3">
                   <IoMdMail /> Contact All
                 </Button>
@@ -74,13 +74,13 @@ const Contact = () => {
             </CardBody>
           </Card>
           <Card className="col-md-4 p-0 shadow">
-            <img className="card-img-top shadow" src={LucyImg} alt="Lucy" />
+            <img className="card-img-top shadow" src={OscarImg} alt="Oscar" />
             <CardBody>
               <CardTitle>
-                <h6>Lucy Zhang | Director</h6>
+                <h6>Oscar Kavanagh | Director</h6>
               </CardTitle>
 
-              <a href="mailto:lqz@andrew.cmu.edu">
+              <a href="mailto:otk@andrew.cmu.edu">
                 <Button color="warning" size="sm">
                   <IoMdMail /> Contact
                 </Button>
