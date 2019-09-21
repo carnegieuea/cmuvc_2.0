@@ -54,7 +54,7 @@ const Details = () => {
                     <IoIosCalendar /> March 15, 2020 - Finalists Announced
                   </p>
                   <p>
-                    <IoIosCalendar /> Date TBD, 2020 - Competition Finals at CMU
+                    <IoIosCalendar /> April 4, 2020 - Competition Finals at CMU
                   </p>
                 </CardBody>
               </Card>

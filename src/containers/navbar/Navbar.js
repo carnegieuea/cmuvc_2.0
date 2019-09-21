@@ -30,12 +30,11 @@ export default class MainNavbar extends React.Component {
     return (
       <Navbar color="dark" dark expand="md">
         <Container>
-          <NavbarBrand
-            tag={Link}
-            to="/"
-            className="text-white font-weight-bold"
-          >
-            CMU Venture Challenge
+          <NavbarBrand tag={Link} to="/" className="text-white">
+            <h4 className="mb-0 font-weight-bold">CMU Venture Challenge</h4>
+            <p className="mb-0" style={{ fontSize: "0.75rem" }}>
+              April 4, 2020 @ Swartz Center for Entrepreneurship
+            </p>
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} className="border-0" />
           <Collapse isOpen={this.state.isOpen} navbar>

@@ -185,9 +185,10 @@ const Partners = ({ learnMore, displayAll }) => {
             <Link to="/contact" className="text-decoration-none text-muted">
               Contact us
             </Link>{" "}
-            for information about sponsoring, judging, and speaking at our
-            Spring 2020 event.
+            for information about sponsoring, judging, and speaking at the CMU
+            VC 2020.
           </p>
+
           <Button
             tag={Link}
             to="/sponsor"

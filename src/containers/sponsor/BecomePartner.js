@@ -26,6 +26,7 @@ const BecomePartner = () => {
                 for information about sponsoring, judging, and speaking at our
                 Spring 2020 event.
               </p>
+
               <Button
                 tag={Link}
                 to="/contact"

@@ -61,10 +61,10 @@ export default function Hero() {
               </Button>
             </div>
 
-            {/* <div className="text-light mt-3">
-              <h4>Date TBD @ Swartz Center for Entrepreneurship</h4>
+            <div className="text-light mt-3">
+              <h4>April 4, 2020 @ Swartz Center for Entrepreneurship</h4>
               <h4>Tepper School of Business</h4>
-            </div> */}
+            </div>
           </Container>
         </TransparentBg>
       </Jumbotron>
