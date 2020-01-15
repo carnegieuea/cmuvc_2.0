@@ -11,8 +11,9 @@ import {
 } from "reactstrap";
 import { IoMdMail } from "react-icons/io";
 import SamarthImg from "../../assets/avatars/samarth.JPG";
-import SebastianImg from "../../assets/avatars/sebastian.JPG";
-import OscarImg from "../../assets/avatars/oscar.JPG";
+import SnehitaImg from "../../assets/avatars/Snehita.jpg";
+import EricImg from "../../assets/avatars/Eric.jpg";
+import AvikaImg from "../../assets/avatars/Avika.jpg";
 
 const Contact = () => {
   return (
@@ -22,7 +23,7 @@ const Contact = () => {
           <Col className="pb-4">
             <h1 className="display-5 font-weight-bolder text-black">
               Contact Us.
-              <a href="mailto:sgowda@andrew.cmu.edu;yukaiy@andrew.cmu.edu;otk@andrew.cmu.edu">
+              <a href="mailto:samarthgowda@cmu.edu,esliang@andrew.cmu.edu,ssana@andrew.cmu.edu,avikab@andrew.cmu.edu">
                 <Button color="dark" size="sm" className="mx-3">
                   <IoMdMail /> Contact All
                 </Button>
@@ -37,7 +38,7 @@ const Contact = () => {
           </Col>
         </Row>
         <CardDeck className="py-md-5">
-          <Card className="col-md-4 p-0 shadow">
+          <Card className="col-md-3 p-0 shadow">
             <img
               className="card-img-top shadow"
               src={SamarthImg}
@@ -48,39 +49,53 @@ const Contact = () => {
                 <h6>Samarth Gowda | Director</h6>
               </CardTitle>
 
-              <a href="mailto:sgowda@andrew.cmu.edu">
+              <a href="mailto:samarthgowda@cmu.edu">
                 <Button color="warning" size="sm">
                   <IoMdMail /> Contact
                 </Button>
               </a>
             </CardBody>
           </Card>
-          <Card className="col-md-4 p-0 shadow">
+          <Card className="col-md-3 p-0 shadow">
             <img
               className="card-img-top shadow"
-              src={SebastianImg}
-              alt="Sebastian"
+              src={SnehitaImg}
+              alt="Snehita"
             />
             <CardBody>
               <CardTitle>
-                <h6>Sebastian Yang | Director</h6>
+                <h6>Snehita Sana | Director</h6>
               </CardTitle>
 
-              <a href="mailto:yukaiy@andrew.cmu.edu">
+              <a href="mailto:ssana@andrew.cmu.edu">
                 <Button color="warning" size="sm">
                   <IoMdMail /> Contact
                 </Button>
               </a>
             </CardBody>
           </Card>
-          <Card className="col-md-4 p-0 shadow">
-            <img className="card-img-top shadow" src={OscarImg} alt="Oscar" />
+          <Card className="col-md-3 p-0 shadow">
+            <img className="card-img-top shadow" src={EricImg} alt="Eric" />
             <CardBody>
               <CardTitle>
-                <h6>Oscar Kavanagh | Director</h6>
+                <h6>Eric Liang | Director</h6>
               </CardTitle>
 
-              <a href="mailto:otk@andrew.cmu.edu">
+              <a href="mailto:esliang@andrew.cmu.edu">
+                <Button color="warning" size="sm">
+                  <IoMdMail /> Contact
+                </Button>
+              </a>
+            </CardBody>
+          </Card>
+          <Card className="col-md-3 p-0 shadow">
+            <img className="card-img-top shadow" src={AvikaImg} alt="Avika" />
+            <CardBody>
+              <CardTitle>
+                <h6>Avika Bansal | Director</h6>
+              </CardTitle>
+
+              <a href="mailto:avikab@andrew.cmu.edu">
                 <Button color="warning" size="sm">
                   <IoMdMail /> Contact
                 </Button>

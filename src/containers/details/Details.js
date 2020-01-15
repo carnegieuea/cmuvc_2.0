@@ -44,8 +44,7 @@ const Details = () => {
                   <h5 className="font-weight-bold">Timeline</h5>
 
                   <p>
-                    <IoIosCalendar /> December 1, 2019 - Applications Open
-                    (Estimated)
+                    <IoIosCalendar /> January 15, 2020 - Applications Open
                   </p>
                   <p>
                     <IoIosCalendar /> March 1, 2020 - Application Deadline
@@ -54,17 +53,14 @@ const Details = () => {
                     <IoIosCalendar /> March 15, 2020 - Finalists Announced
                   </p>
                   <p>
-                    <IoIosCalendar /> April 4, 2020 - Competition Finals at CMU
+                    <IoIosCalendar /> April 4, 2020 - Competition Finals at
+                    Carnegie Mellon University
                   </p>
                 </CardBody>
               </Card>
               <Card className="border-0 bg-light shadow">
                 <CardBody>
                   <h5 className="font-weight-bold">Application Deliverables</h5>
-
-                  <p>
-                    <IoIosCheckmarkCircle /> 90 Second Video Pitch
-                  </p>
                   <p>
                     {" "}
                     <IoIosCheckmarkCircle /> Preliminary Slide Deck (10 Slides
@@ -77,6 +73,9 @@ const Details = () => {
                   <p>
                     {" "}
                     <IoIosCheckmarkCircle /> Basic Company Information
+                  </p>
+                  <p>
+                    <IoIosCheckmarkCircle /> 90 Second Video Pitch
                   </p>
                 </CardBody>
               </Card>
@@ -100,10 +99,6 @@ const Details = () => {
                   <p>
                     {" "}
                     <IoIosCheckmarkCircle /> Unlimited Slides for Startup Pitch
-                  </p>
-                  <p>
-                    {" "}
-                    <IoIosCheckmarkCircle /> 90 Second Elevator Pitch Round
                   </p>
                   <p>
                     {" "}
@@ -131,6 +126,11 @@ const Details = () => {
                     Teams are allowed to have non-undergraduates, but the main
                     founders must be undergraduates. Teams with member(s) taking
                     a leave of absence are still eligible to participate.
+                  </p>
+                  <p>
+                    <IoIosCheckmarkCircle /> Teams must not have raised more
+                    than $1M USD in funding from institutional investors,
+                    angels, or competitions.
                   </p>
                   <p>
                     <IoIosCheckmarkCircle /> Participants are NOT required to be

@@ -21,18 +21,18 @@ const Schedule = () => {
             </p>
           </Col>
           <Col md="4" className="py-md-0 py-5">
-            <h6 className="font-weight-bold">SCHEDULE OF EVENTS</h6>
+            <h6 className="font-weight-bold">SCHEDULE OF EVENTS (Tentative)</h6>
             <ul className="list-unstyled font-weight-bold text-info">
-              <li className="py-1">12pm : Introductions</li>
-              <li className="py-1">12:15pm : Startup Pitches</li>
-              <li className="py-1">2:30pm : Lunch with Choolaah Indian BBQ</li>
-              <li className="py-1">3:15pm : Keynote Speaker</li>
-              <li className="py-1">4pm : Elevator Pitches</li>
-              <li className="py-1">4:30pm : Startup Panel</li>
+              <li className="py-1">12pm : Introductions + Keynote Speaker</li>
+              <li className="py-1">12:30pm : Lunch with Choolaah Indian BBQ</li>
+              <li className="py-1">1:15pm : Startup Pitches</li>
               <li className="py-1">
-                5pm: Networking Session + Judges Deliberation
+                2:30pm : MUS Law - Startup Legalities 101
               </li>
-              <li className="py-1">5:30pm : Awards</li>
+              <li className="py-1">3pm : Startup Pitches</li>
+              <li className="py-1">4:45pm : Entrepreneurs Panel</li>
+              <li className="py-1">4:45pm: Judges Deliberation</li>
+              <li className="py-1">5:15pm : Awards</li>
             </ul>
           </Col>
         </Row>
