@@ -155,21 +155,24 @@ const Details = () => {
           </Col>
           <Col md="4" className="my-md-0 my-3">
             <h6 className="font-weight-bold">FIRST PLACE</h6>
-            <h5 className="font-weight-bold text-danger">$4,000 CASH PRIZE</h5>
+            <h5 className="font-weight-bold text-danger">$6,000 CASH PRIZE</h5>
             <h5 className="font-weight-bold text-dark mb-0">
               $2,500 LEGAL SERVICES
+            </h5>
+            <h5 className="font-weight-bold text-dark mb-0">
+              5000 HEROKU CREDITS
             </h5>
           </Col>
           <Col md="4" className="my-md-0 my-3">
             <h6 className="font-weight-bold">SECOND PLACE</h6>
-            <h5 className="font-weight-bold text-danger">$2,000 CASH PRIZE</h5>
+            <h5 className="font-weight-bold text-danger">$4,000 CASH PRIZE</h5>
             <h5 className="font-weight-bold text-dark mb-0">
               $1,500 LEGAL SERVICES
             </h5>
           </Col>
           <Col md="4" className="my-md-0 my-3">
             <h6 className="font-weight-bold">THIRD PLACE</h6>
-            <h5 className="font-weight-bold text-danger">$1,000 CASH PRIZE</h5>
+            <h5 className="font-weight-bold text-danger">$2,500 CASH PRIZE</h5>
             <h5 className="font-weight-bold text-dark mb-0">
               $1,000 LEGAL SERVICES
             </h5>
