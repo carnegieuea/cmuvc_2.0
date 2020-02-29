@@ -8,9 +8,9 @@ const Apply = () => {
       <h5 className="pt-md-5 pb-md-3">
         Applications for the 2020 Carnegie Mellon Venture Challenge are
         currently open! Applications will close{" "}
-        <strong>March 1, 2020 at 11:59pm</strong>. If you would like to learn
-        more or have any other questions, please visit our competition details
-        page or contact us.
+        <strong>March 8, 2020 (EXTENDED) at 11:59pm</strong>. If you would like
+        to learn more or have any other questions, please visit our competition
+        details page or contact us.
       </h5>
       <Button
         tag="a"
