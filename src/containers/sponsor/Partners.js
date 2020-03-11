@@ -26,6 +26,10 @@ import SDC from "../../assets/partners/sdc.png";
 import DRF from "../../assets/partners/drf.png";
 import RDV from "../../assets/partners/rdv.png";
 import TEPPER from "../../assets/partners/tepper_logo.png";
+import HEROKU from "../../assets/partners/heroku.png";
+import CHOOLAAH from "../../assets/partners/choolaah.jpg";
+import AIKENHOUSE from "../../assets/partners/AikenHouse_black.png";
+import SALESFORCE from "../../assets/partners/salesforce.png";
 
 const PartnersImg = styled.img`
   max-width: 65%;
@@ -55,6 +59,35 @@ const MainPartners = () => {
 
       <Row className="d-flex flex-row justify-content-around align-items-center py-2">
         <Col md="3">
+          <PartnersImg src={HEROKU} alt="HEROKU" className="img-fluid" />
+        </Col>
+        <Col md="3">
+          <PartnersImg
+            src={SALESFORCE}
+            alt="SALESFORCE"
+            className="img-fluid"
+          />
+        </Col>
+        <Col md="3">
+          <PartnersImg
+            src={AIKENHOUSE}
+            alt="AIKEN HOUSE"
+            className="img-fluid"
+          />
+        </Col>
+        <Col md="3">
+          <PartnersImg src={CHOOLAAH} alt="CHOOLAAH" className="img-fluid" />
+        </Col>
+      </Row>
+    </Fragment>
+  );
+};
+
+const OtherPartners = () => {
+  return (
+    <Fragment>
+      <Row className="d-flex flex-row justify-content-around align-items-center py-2">
+        <Col md="3">
           <PartnersImg src={SEQUOIA} alt="SEQUOIA" className="img-fluid" />
         </Col>
         <Col md="3">
@@ -71,13 +104,6 @@ const MainPartners = () => {
           <PartnersImg src={PVCA} alt="PVCA" className="img-fluid" />
         </Col>
       </Row>
-    </Fragment>
-  );
-};
-
-const OtherPartners = () => {
-  return (
-    <Fragment>
       <Row className="d-flex flex-row justify-content-around align-items-center py-2">
         <Col md="3">
           <PartnersImg
