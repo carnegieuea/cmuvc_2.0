@@ -12,12 +12,14 @@ import FAQ from "../faq";
 import PrivacyPolcy from "../policies/PrivacyPolicy";
 import TermsOfService from "../policies/TermsOfService";
 import NotFoundPage from "../404";
+import AlertMsg from "../alert";
 
 function App() {
   return (
     <Router>
       <Fragment>
         <ScrollToTop />
+        <AlertMsg />
         <MainNavbar />
         <Switch>
           <Route exact path="/" component={Home} />
