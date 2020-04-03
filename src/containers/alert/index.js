@@ -4,8 +4,8 @@ import { Alert, Button } from "reactstrap";
 const AlertMsg = () => {
   return (
     <Alert color="primary" className="mb-0 my-auto text-center">
-      CMU Venture Challenge 2020 will be moving online. The YouTube Live starts
-      at 12:30pm EST.{" "}
+      CMU Venture Challenge will be moving online. The YouTube Live starts at
+      12:30pm EST on April 4, 2020.{" "}
       <Button
         color="primary"
         size="sm"
