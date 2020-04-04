@@ -9,7 +9,7 @@ const AlertMsg = () => {
       <Button
         color="primary"
         size="sm"
-        href="https://youtu.be/T3liabwLBdM"
+        href="https://www.youtube.com/watch?v=J195GeYPf3g"
         target="_blank"
         rel="noopener noreferrer"
         className="text-decoration-none text-white ml-3 font-weight-bold shadow"
