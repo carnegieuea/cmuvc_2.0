@@ -16,6 +16,16 @@ const AlertMsg = () => {
       >
         Link to Watch
       </Button>
+      <Button
+        color="primary"
+        size="sm"
+        href="https://cmuvc.com/program.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-decoration-none text-white ml-3 font-weight-bold shadow"
+      >
+        View Program
+      </Button>
     </Alert>
   );
 };
