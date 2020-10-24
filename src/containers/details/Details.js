@@ -47,7 +47,7 @@ const Details = () => {
                     <IoIosCalendar /> December 1, 2020 - Applications Open
                   </p>
                   <p>
-                    <IoIosCalendar /> March 1, 2021 - Application Deadline
+                    <IoIosCalendar /> February 26, 2021 - Application Deadline
                   </p>
                   <p>
                     <IoIosCalendar /> March 15, 2021 - Finalists Announced
@@ -61,13 +61,14 @@ const Details = () => {
                 <CardBody>
                   <h5 className="font-weight-bold">Application Deliverables</h5>
                   <p>
-                    {" "}
                     <IoIosCheckmarkCircle /> Preliminary Slide Deck (10 Slides
                     Max)
                   </p>
                   <p>
-                    {" "}
                     <IoIosCheckmarkCircle /> Executive Summary (1 Page)
+                  </p>
+                  <p>
+                    <IoIosCheckmarkCircle /> Link to Demo
                   </p>
                 </CardBody>
               </Card>
