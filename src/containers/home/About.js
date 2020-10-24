@@ -25,7 +25,7 @@ const About = () => {
         <Col md="5">
           <h6 className="font-weight-bold">WHERE</h6>
           <h5 className="font-weight-bold text-danger">
-           Remote <br /> Virtual Demo Day
+            Remote <br /> Virtual Demo Day
           </h5>
         </Col>
         <Col md="4">
@@ -60,18 +60,7 @@ const About = () => {
               support."
             </p>
             <footer className="blockquote-footer pt-4">
-              Kristen Fang @{" "}
-              <cite title="Source Title">
-                <a
-                  href="https://www.strattyx.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-decoration-none text-danger"
-                >
-                  StrattyX (YC W20)
-                </a>{" "}
-              </cite>
-              - 1st Place CMU VC 2019
+              Kristen Fang @ StrattyX (YC W20) - 1st Place CMU VC 2019
             </footer>
           </blockquote>
         </Col>
