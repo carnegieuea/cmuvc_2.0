@@ -6,7 +6,7 @@ import {
   Button,
   CardDeck,
   Card,
-  CardBody
+  CardBody,
 } from "reactstrap";
 import { Link } from "react-router-dom";
 import { IoIosCheckmarkCircle, IoIosCalendar } from "react-icons/io";
@@ -44,18 +44,16 @@ const Details = () => {
                   <h5 className="font-weight-bold">Timeline</h5>
 
                   <p>
-                    <IoIosCalendar /> January 15, 2020 - Applications Open
+                    <IoIosCalendar /> December 1, 2020 - Applications Open
                   </p>
                   <p>
-                    <IoIosCalendar /> March 8, 2020 - Application Deadline
-                    (EXTENDED)
+                    <IoIosCalendar /> March 1, 2021 - Application Deadline
                   </p>
                   <p>
-                    <IoIosCalendar /> March 15, 2020 - Finalists Announced
+                    <IoIosCalendar /> March 15, 2021 - Finalists Announced
                   </p>
                   <p>
-                    <IoIosCalendar /> April 4, 2020 - Competition Finals at
-                    Carnegie Mellon University
+                    <IoIosCalendar /> April 3, 2021 - Virtual Competition Finals
                   </p>
                 </CardBody>
               </Card>
@@ -70,13 +68,6 @@ const Details = () => {
                   <p>
                     {" "}
                     <IoIosCheckmarkCircle /> Executive Summary (1 Page)
-                  </p>
-                  <p>
-                    {" "}
-                    <IoIosCheckmarkCircle /> Basic Company Information
-                  </p>
-                  <p>
-                    <IoIosCheckmarkCircle /> 90 Second Video Pitch
                   </p>
                 </CardBody>
               </Card>
@@ -130,7 +121,7 @@ const Details = () => {
                   </p>
                   <p>
                     <IoIosCheckmarkCircle /> Teams must not have raised more
-                    than $1M USD in funding from institutional investors,
+                    than $500K USD in funding from institutional investors,
                     angels, or competitions.
                   </p>
                   <p>
@@ -159,9 +150,6 @@ const Details = () => {
             <h5 className="font-weight-bold text-danger">$6,000 CASH PRIZE</h5>
             <h5 className="font-weight-bold text-dark mb-0">
               $2,500 LEGAL SERVICES
-            </h5>
-            <h5 className="font-weight-bold text-dark mb-0">
-              5000 HEROKU CREDITS
             </h5>
           </Col>
           <Col md="4" className="my-md-0 my-3">

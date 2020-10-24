@@ -22,12 +22,8 @@ const Apply = () => {
           </Col>
           <Col md="4">
             <h6 className="font-weight-bold">TOTAL OTHER PRIZES</h6>
-            <h5 className="font-weight-bold text-warning mb-0">$4,000 + </h5>
+            <h5 className="font-weight-bold text-warning mb-0">$4,000 +</h5>
             <small className="pt-0">Sponsored by Meyer Unkovic Scott</small>
-            <h5 className="font-weight-bold text-warning mb-0">
-              5,000 CREDITS
-            </h5>
-            <small className="pt-0">Sponsored by HEROKU (1st Place Team)</small>
           </Col>
 
           <Col md="4" className="text-center">

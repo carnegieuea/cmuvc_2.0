@@ -6,7 +6,7 @@ import {
   Button,
   CardDeck,
   Card,
-  CardBody
+  CardBody,
 } from "reactstrap";
 import { Link } from "react-router-dom";
 
@@ -24,7 +24,7 @@ const BecomePartner = () => {
                   Contact us
                 </Link>{" "}
                 for information about sponsoring, judging, and speaking at our
-                Spring 2020 event.
+                Spring 2021 event.
               </p>
 
               <Button

@@ -38,7 +38,7 @@ export default function Hero() {
           backgroundAttachment: "fixed",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
-          backgroundSize: "cover"
+          backgroundSize: "cover",
         }}
         fluid
         className="text-center py-0 my-0"
@@ -49,8 +49,8 @@ export default function Hero() {
               Carnegie Mellon Venture Challenge
             </HeroH1>
             <h4>
-              Annual international startup pitch competition to win seed
-              funding, legal services, and mentorship.
+              Annual international startup competition to win seed funding,
+              legal services, and mentorship.
             </h4>
             <div className="py-3">
               <Button tag={Link} to="/details" className="mx-2" color="light">
@@ -62,8 +62,11 @@ export default function Hero() {
             </div>
 
             <div className="text-light mt-3">
-              <h4>April 4, 2020 @ Swartz Center for Entrepreneurship</h4>
-              <h4>Tepper School of Business</h4>
+              <h4>Applications will open shortly</h4>
+              {/* Date */}
+              <h4>Demo Day on April 3, 2021</h4>
+              {/* Location */}
+              <h4>Remote</h4>
             </div>
           </Container>
         </TransparentBg>

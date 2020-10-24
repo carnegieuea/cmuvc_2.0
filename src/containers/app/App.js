@@ -19,7 +19,7 @@ function App() {
     <Router>
       <Fragment>
         <ScrollToTop />
-        <AlertMsg />
+        <AlertMsg display={true} />
         <MainNavbar />
         <Switch>
           <Route exact path="/" component={Home} />

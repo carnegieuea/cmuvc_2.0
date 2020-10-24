@@ -25,13 +25,13 @@ const About = () => {
         <Col md="5">
           <h6 className="font-weight-bold">WHERE</h6>
           <h5 className="font-weight-bold text-danger">
-            Swartz Center for Entrepreneurship <br /> Tepper School of Business
+           Remote <br /> Virtual Demo Day
           </h5>
         </Col>
         <Col md="4">
           {" "}
           <h6 className="font-weight-bold">WHEN</h6>
-          <h5 className="font-weight-bold text-danger">April 4, 2020</h5>
+          <h5 className="font-weight-bold text-danger">April 3, 2021</h5>
         </Col>
         <Col md="3" className="text-center">
           <Button
@@ -68,7 +68,7 @@ const About = () => {
                   rel="noopener noreferrer"
                   className="text-decoration-none text-danger"
                 >
-                  StrattyX
+                  StrattyX (YC W20)
                 </a>{" "}
               </cite>
               - 1st Place CMU VC 2019

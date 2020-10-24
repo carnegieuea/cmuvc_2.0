@@ -212,7 +212,7 @@ const Partners = ({ learnMore, displayAll }) => {
               Contact us
             </Link>{" "}
             for information about sponsoring, judging, and speaking at the CMU
-            VC 2020.
+            VC 2021.
           </p>
 
           <Button

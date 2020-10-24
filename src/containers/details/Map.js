@@ -6,7 +6,9 @@ const Map = () => {
     <Container className="py-md-5 py-3 text-dark">
       <Row className="py-2">
         <Col md="8">
-          <h1 className="font-weight-bold pb-md-3">Getting Here</h1>
+          <h1 className="font-weight-bold pb-md-3">
+            Getting Here <span className="text-danger">(N/A)</span>
+          </h1>
           <p className="lead font-weight-normal">
             The CMU VC takes place in the Swartz Center for Entrepreneurship
             located on the 3rd floor of the Tepper School of Business @ Carnegie
