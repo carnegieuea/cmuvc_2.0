@@ -24,9 +24,7 @@ const About = () => {
       <Row className="py-md-2 py-1">
         <Col md="5">
           <h6 className="font-weight-bold">WHERE</h6>
-          <h5 className="font-weight-bold text-danger">
-            Remote <br /> Virtual Demo Day
-          </h5>
+          <h5 className="font-weight-bold text-danger">Virtual Demo Day</h5>
         </Col>
         <Col md="4">
           {" "}
