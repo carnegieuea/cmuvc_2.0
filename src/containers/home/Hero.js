@@ -62,11 +62,9 @@ export default function Hero() {
             </div>
 
             <div className="text-light mt-3">
-              <h4>Applications will open shortly</h4>
+              <h4>First round applications will open shortly</h4>
               {/* Date */}
               <h4>Demo Day on April 3, 2021</h4>
-              {/* Location */}
-              <h4>Remote</h4>
             </div>
           </Container>
         </TransparentBg>
