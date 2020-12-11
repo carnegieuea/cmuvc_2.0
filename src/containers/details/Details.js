@@ -44,7 +44,7 @@ const Details = () => {
                   <h5 className="font-weight-bold">Timeline</h5>
 
                   <p>
-                    <IoIosCalendar /> December 1, 2020 - Applications Open
+                    <IoIosCalendar /> December 10, 2020 - Applications Open
                   </p>
                   <p>
                     <IoIosCalendar /> February 26, 2021 - Application Deadline
@@ -133,6 +133,10 @@ const Details = () => {
                   <p>
                     <IoIosCheckmarkCircle /> Submissions should be the
                     individual's or team's original work.
+                  </p>
+                  <p>
+                    <IoIosCheckmarkCircle /> Teams must pitch at the final round
+                    to receive any prizes for placing Top 12.
                   </p>
                 </CardBody>
               </Card>

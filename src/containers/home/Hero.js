@@ -62,8 +62,8 @@ export default function Hero() {
             </div>
 
             <div className="text-light mt-3">
-              <h4>First round applications will open shortly</h4>
-              {/* Date */}
+              <h4>First Round Applications are Open!</h4>
+              <h4>Round 1 Closes on February 26, 2021 @ 11:59pm EST</h4>
               <h4>Demo Day on April 3, 2021</h4>
             </div>
           </Container>
