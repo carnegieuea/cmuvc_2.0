@@ -18,13 +18,13 @@ const Apply = () => {
         <Row className="py-md-2 py-1">
           <Col md="4">
             <h6 className="font-weight-bold">TOTAL CASH PRIZE</h6>
-            <h5 className="font-weight-bold text-warning">$12,500</h5>
+            <h5 className="font-weight-bold text-warning">$17,000</h5>
           </Col>
           <Col md="4">
             <h6 className="font-weight-bold">TOTAL OTHER PRIZES</h6>
-            <h5 className="font-weight-bold text-warning mb-0">$70,000 +</h5>
+            <h5 className="font-weight-bold text-warning mb-0">$80,000 +</h5>
             <small className="pt-0">
-              Sponsored by Meyer Unkovic Scott and Freshworks
+              Sponsored by Meyer Unkovic Scott, Freshworks, AWS
             </small>
           </Col>
 

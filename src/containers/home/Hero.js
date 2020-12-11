@@ -50,7 +50,8 @@ export default function Hero() {
             </HeroH1>
             <h4>
               Annual international startup competition to win seed funding,
-              legal services, and mentorship.
+              legal services, and mentorship. Compete for over $100K in total
+              prizes.
             </h4>
             <div className="py-3">
               <Button tag={Link} to="/details" className="mx-2" color="light">
