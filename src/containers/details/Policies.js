@@ -28,7 +28,7 @@ const Poliies = () => {
             </p>
           </Col>
         </Row>
-        <Row className="py-md-5 py-3">
+        {/* <Row className="py-md-5 py-3">
           <Col md="8">
             <h3 className="font-weight-bolder mb-0">
               Travel Reimbursements Policy{" "}
@@ -69,7 +69,7 @@ const Poliies = () => {
               Venmo, Paypal, WePay, etc.
             </p>
           </Col>
-        </Row>
+        </Row> */}
         <Row className="py-md-5 py-3">
           <Col>
             <h3 className="font-weight-bolder">Photography / Video Policy</h3>
