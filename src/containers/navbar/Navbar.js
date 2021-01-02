@@ -33,7 +33,7 @@ export default class MainNavbar extends React.Component {
           <NavbarBrand tag={Link} to="/" className="text-white">
             <h4 className="mb-0 font-weight-bold">CMU Venture Challenge</h4>
             <p className="mb-0" style={{ fontSize: "0.75rem" }}>
-              Demo Day on April 3, 2021
+              Powered by Accel | Demo Day on April 3, 2021
             </p>
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} className="border-0" />

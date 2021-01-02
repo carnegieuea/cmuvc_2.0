@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import { Container, Row, Col } from "reactstrap";
-import { IoIosCheckmarkCircle } from "react-icons/io";
 
 const Poliies = () => {
   return (

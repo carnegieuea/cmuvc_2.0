@@ -30,6 +30,7 @@ import HEROKU from "../../assets/partners/heroku.png";
 import CHOOLAAH from "../../assets/partners/choolaah.jpg";
 import AIKENHOUSE from "../../assets/partners/AikenHouse_black.png";
 import SALESFORCE from "../../assets/partners/salesforce.png";
+import TWOSIGMA from "../../assets/partners/two-sigma-ventures.png";
 
 const PartnersImg = styled.img`
   max-width: 65%;
@@ -39,162 +40,146 @@ const PartnersImg = styled.img`
 const SponsorsWrapper = styled.div`
   text-align: center;
 `;
-const MainPartners = () => {
+
+const MAIN_PARTNERS = [
+  {
+    src: SWARTZ,
+    alt: "SWARTZ",
+  },
+  {
+    src: TEPPER,
+    alt: "TEPPER",
+  },
+  {
+    src: ACCEL,
+    alt: "ACCEL",
+  },
+  {
+    src: MUSLAW,
+    alt: "MUSLAW",
+  },
+  {
+    src: ACG,
+    alt: "ACG",
+  },
+  {
+    src: PVCA,
+    alt: "PVCA",
+  },
+  {
+    src: AIKENHOUSE,
+    alt: "AIKENHOUSE",
+  },
+  {
+    src: TWOSIGMA,
+    alt: "TWOSIGMA",
+  },
+];
+
+const OTHER_PARTNERS = [
+  {
+    src: SEQUOIA,
+    alt: "SEQUOIA",
+  },
+  {
+    src: DUOLINGO,
+    alt: "DUOLINGO",
+  },
+  {
+    src: CHOOLAAH,
+    alt: "CHOOLAAH",
+  },
+  {
+    src: DRAPER,
+    alt: "DRAPER",
+  },
+
+  {
+    src: CONTRARY,
+    alt: "CONTRARY",
+  },
+  {
+    src: GGV,
+    alt: "GGV",
+  },
+  {
+    src: HEROKU,
+    alt: "HEROKU",
+  },
+  {
+    src: SALESFORCE,
+    alt: "SALESFORCE",
+  },
+  {
+    src: GENERALCATALYST,
+    alt: "GENERALCATALYST",
+  },
+  {
+    src: ALPHALAB,
+    alt: "ALPHALAB",
+  },
+  {
+    src: BLUETREE,
+    alt: "BLUETREE",
+  },
+  {
+    src: INNOSPRING,
+    alt: "INNOSPRING",
+  },
+  {
+    src: INNOVATIONWORKS,
+    alt: "INNOVATIONWORKS",
+  },
+  {
+    src: GROUSERIDGE,
+    alt: "GROUSERIDGE",
+  },
+  {
+    src: SCS,
+    alt: "SCS",
+  },
+  {
+    src: DIETRICH,
+    alt: "DIETRICH",
+  },
+  {
+    src: SENATE,
+    alt: "SENATE",
+  },
+  {
+    src: CAMPUSVC,
+    alt: "CAMPUSVC",
+  },
+  {
+    src: SDC,
+    alt: "SDC",
+  },
+  {
+    src: DRF,
+    alt: "DRF",
+  },
+  {
+    src: RDV,
+    alt: "RDV",
+  },
+];
+
+const DisplayPartners = ({ partners: PARTNERS }) => {
   return (
     <Fragment>
       <Row className="d-flex flex-row justify-content-around align-items-center py-2">
-        <Col md="3">
-          <PartnersImg src={SWARTZ} alt="Swartz" className="img-fluid" />
-        </Col>
-        <Col md="3">
-          <PartnersImg src={TEPPER} alt="Tepper" className="img-fluid" />
-        </Col>
-        <Col md="3">
-          <PartnersImg src={MUSLAW} alt="MUS Law" className="img-fluid" />
-        </Col>
-        <Col md="3">
-          <PartnersImg src={ACG} alt="ACG" className="img-fluid" />
-        </Col>
-      </Row>
-
-      <Row className="d-flex flex-row justify-content-around align-items-center py-2">
-        <Col md="3">
-          <PartnersImg src={HEROKU} alt="HEROKU" className="img-fluid" />
-        </Col>
-        <Col md="3">
-          <PartnersImg
-            src={SALESFORCE}
-            alt="SALESFORCE"
-            className="img-fluid"
-          />
-        </Col>
-        <Col md="3">
-          <PartnersImg
-            src={AIKENHOUSE}
-            alt="AIKEN HOUSE"
-            className="img-fluid"
-          />
-        </Col>
-        <Col md="3">
-          <PartnersImg src={CHOOLAAH} alt="CHOOLAAH" className="img-fluid" />
-        </Col>
-      </Row>
-    </Fragment>
-  );
-};
-
-const OtherPartners = () => {
-  return (
-    <Fragment>
-      <Row className="d-flex flex-row justify-content-around align-items-center py-2">
-        <Col md="3">
-          <PartnersImg src={SEQUOIA} alt="SEQUOIA" className="img-fluid" />
-        </Col>
-        <Col md="3">
-          <PartnersImg src={DUOLINGO} alt="DUOLINGO" className="img-fluid" />
-        </Col>
-        <Col md="3">
-          <PartnersImg
-            src={DRAPER}
-            alt="Draper Triangle"
-            className="img-fluid"
-          />
-        </Col>
-        <Col md="3">
-          <PartnersImg src={PVCA} alt="PVCA" className="img-fluid" />
-        </Col>
-      </Row>
-      <Row className="d-flex flex-row justify-content-around align-items-center py-2">
-        <Col md="3">
-          <PartnersImg
-            src={CONTRARY}
-            alt="Contrary Capital"
-            className="img-fluid"
-          />
-        </Col>
-        <Col md="3">
-          <PartnersImg src={GGV} alt="GGV" className="img-fluid" />
-        </Col>
-        <Col md="3">
-          <PartnersImg src={ACCEL} alt="Accel" className="img-fluid" />
-        </Col>
-        <Col md="3">
-          <PartnersImg
-            src={GENERALCATALYST}
-            alt="General Catalyst"
-            className="img-fluid"
-          />
-        </Col>
-      </Row>
-
-      <Row className="d-flex flex-row justify-content-around align-items-center py-2">
-        <Col md="3">
-          <PartnersImg src={ALPHALAB} alt="Alpha Lab" className="img-fluid" />
-        </Col>
-
-        <Col md="3">
-          <PartnersImg src={BLUETREE} alt="Blue Tree" className="img-fluid" />
-        </Col>
-        <Col md="3">
-          <PartnersImg
-            src={INNOSPRING}
-            alt="Innospring"
-            className="img-fluid"
-          />
-        </Col>
-        <Col md="3">
-          <PartnersImg
-            src={INNOVATIONWORKS}
-            alt="Innovation Works"
-            className="img-fluid"
-          />
-        </Col>
-      </Row>
-
-      <Row className="d-flex flex-row justify-content-around align-items-center py-2">
-        <Col md="3">
-          <PartnersImg
-            src={GROUSERIDGE}
-            alt="Grouseridge"
-            className="img-fluid"
-          />
-        </Col>
-        <Col md="3">
-          <PartnersImg
-            src={SCS}
-            alt="School of Computer Science"
-            className="img-fluid"
-          />
-        </Col>
-        <Col md="3">
-          <PartnersImg src={DIETRICH} alt="Dietrich" className="img-fluid" />
-        </Col>
-        <Col className="col-md-3 ">
-          <PartnersImg src={SENATE} alt="CMU Senate" className="img-fluid" />
-        </Col>
-      </Row>
-
-      <Row className="d-flex flex-row justify-content-around align-items-center py-2">
-        <Col md="3">
-          <PartnersImg src={CAMPUSVC} alt="Campus VC" className="img-fluid" />
-        </Col>
-        <Col md="3">
-          <PartnersImg
-            src={SDC}
-            alt="Student Dormitory Council"
-            className="img-fluid"
-          />
-        </Col>
-        <Col md="3">
-          <PartnersImg src={DRF} alt="Dorm Room Fund" className="img-fluid" />
-        </Col>
-        <Col md="3">
-          <PartnersImg
-            src={RDV}
-            alt="Rough Draft Ventures"
-            className="img-fluid"
-          />
-        </Col>
+        {PARTNERS &&
+          PARTNERS.map((partner, index) => {
+            return (
+              <Col md="3" key={index}>
+                <PartnersImg
+                  src={partner.src}
+                  alt={partner.alt}
+                  className="img-fluid"
+                />
+              </Col>
+            );
+          })}
       </Row>
     </Fragment>
   );
@@ -227,8 +212,8 @@ const Partners = ({ learnMore, displayAll }) => {
         </Col>
       </Row>
       <SponsorsWrapper>
-        <MainPartners />
-        {displayAll ? <OtherPartners /> : null}
+        <DisplayPartners partners={MAIN_PARTNERS} />
+        {displayAll ? <DisplayPartners partners={OTHER_PARTNERS} /> : null}
       </SponsorsWrapper>
     </Container>
   );

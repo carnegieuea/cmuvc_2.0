@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { Container, Jumbotron, Button } from "reactstrap";
 import styled from "styled-components";
 
+import Accel from "../../assets/partners/accel-white.png";
+
 const HeroH1 = styled.h1`
   font-size: 2rem;
   line-height: 1;
@@ -45,9 +47,15 @@ export default function Hero() {
       >
         <TransparentBg>
           <Container className="text-white">
-            <HeroH1 className="py-md-4">
-              Carnegie Mellon Venture Challenge
-            </HeroH1>
+            <div className="py-md-4">
+              <HeroH1>Carnegie Mellon Venture Challenge</HeroH1>
+              <h2 className="text-uppercase font-weight-bold">Powered by</h2>
+              <img
+                src={Accel}
+                alt="Accel-Gold-Sponsor"
+                style={{ height: "85px", width: "auto" }}
+              />
+            </div>
             <h4>
               Annual international startup competition to win seed funding,
               legal services, and mentorship. Compete for over $100K in total
