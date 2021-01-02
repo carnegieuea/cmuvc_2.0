@@ -31,6 +31,7 @@ import CHOOLAAH from "../../assets/partners/choolaah.jpg";
 import AIKENHOUSE from "../../assets/partners/AikenHouse_black.png";
 import SALESFORCE from "../../assets/partners/salesforce.png";
 import TWOSIGMA from "../../assets/partners/two-sigma-ventures.png";
+import FRESHWORKS from "../../assets/partners/freshworks-logo.png";
 
 const PartnersImg = styled.img`
   max-width: 65%;
@@ -74,6 +75,22 @@ const MAIN_PARTNERS = [
     src: TWOSIGMA,
     alt: "TWOSIGMA",
   },
+  {
+    src: FRESHWORKS,
+    alt: "FRESHWORKS",
+  },
+  {
+    src: CHOOLAAH,
+    alt: "CHOOLAAH",
+  },
+  {
+    src: HEROKU,
+    alt: "HEROKU",
+  },
+  {
+    src: SCS,
+    alt: "SCS",
+  },
 ];
 
 const OTHER_PARTNERS = [
@@ -85,10 +102,7 @@ const OTHER_PARTNERS = [
     src: DUOLINGO,
     alt: "DUOLINGO",
   },
-  {
-    src: CHOOLAAH,
-    alt: "CHOOLAAH",
-  },
+
   {
     src: DRAPER,
     alt: "DRAPER",
@@ -102,10 +116,7 @@ const OTHER_PARTNERS = [
     src: GGV,
     alt: "GGV",
   },
-  {
-    src: HEROKU,
-    alt: "HEROKU",
-  },
+
   {
     src: SALESFORCE,
     alt: "SALESFORCE",
@@ -133,10 +144,6 @@ const OTHER_PARTNERS = [
   {
     src: GROUSERIDGE,
     alt: "GROUSERIDGE",
-  },
-  {
-    src: SCS,
-    alt: "SCS",
   },
   {
     src: DIETRICH,
