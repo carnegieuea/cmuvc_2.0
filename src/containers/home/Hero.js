@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Container, Jumbotron, Button } from "reactstrap";
 import styled from "styled-components";
 
-import Accel from "../../assets/partners/accel-white.png";
+import Accel from "../../assets/partners/accel-white.svg";
 
 const HeroH1 = styled.h1`
   font-size: 2rem;
