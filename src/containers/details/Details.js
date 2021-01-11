@@ -128,7 +128,8 @@ const Details = () => {
                   <p>
                     <IoIosCheckmarkCircle /> Participants are NOT required to be
                     Carnegie Mellon students. The CMU VC is open to any and all
-                    undergraduate students.
+                    undergraduate students that are currently studying in the
+                    United States.
                   </p>
                   <p>
                     <IoIosCheckmarkCircle /> Submissions should be the
