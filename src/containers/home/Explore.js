@@ -34,10 +34,8 @@ const Explore = () => {
               <li className="py-1">12:30pm : Startup Pitches (Part I)</li>
               <li className="py-1">1:45pm : Lunch Break</li>
               <li className="py-1">2:15pm : Startup Pitches (Part II)</li>
-              <li className="py-1">3:30pm : Networking Session</li>
-              <li className="py-1">4:15pm: Founders Panel</li>
-              <li className="py-1">4:30pm: Judges Deliberation</li>
-              <li className="py-1">5:00pm : Awards</li>
+              <li className="py-1">3:30pm : Networking Session and Judges Deliberation</li>
+              <li className="py-1">4:15pm : Awards</li>
             </ul>
           </Col>
         </Row>
