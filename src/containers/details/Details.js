@@ -47,7 +47,7 @@ const Details = () => {
                     <IoIosCalendar /> December 10, 2020 - Applications Open
                   </p>
                   <p>
-                    <IoIosCalendar /> February 26, 2021 - Application Deadline
+                    <IoIosCalendar /> March 5, 2021 - Application Deadline
                   </p>
                   <p>
                     <IoIosCalendar /> March 15, 2021 - Finalists Announced
