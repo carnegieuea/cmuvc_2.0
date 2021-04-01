@@ -8,8 +8,8 @@ const AlertMsg = ({ display }) => {
       color="primary"
       className={`${!display && "d-none"} mb-0 my-auto text-center`}
     >
-      CMU Venture Challenge will be moving completely virtual for 2020-2021.{" "}
-      <Link to="/apply">Click here to Apply Now!</Link>
+      CMU Venture Challenge Demo Day will start on April 3 @ 12pm EST.{" "}
+      <Link to="/demo-day">Watch Demo Day</Link>
     </Alert>
   );
 };

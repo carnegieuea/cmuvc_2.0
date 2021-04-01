@@ -9,6 +9,7 @@ import Sponsor from "../sponsor/Sponsor";
 import Contact from "../contact/Contact";
 import Details from "../details";
 import FAQ from "../faq";
+import DemoDay from "../demoday";
 import PrivacyPolcy from "../policies/PrivacyPolicy";
 import TermsOfService from "../policies/TermsOfService";
 import NotFoundPage from "../404";
@@ -30,6 +31,7 @@ function App() {
           <Route exact path="/faq" component={FAQ} />
           <Route exact path="/privacy" component={PrivacyPolcy} />
           <Route exact path="/terms" component={TermsOfService} />
+          <Route exact path="/demo-day" component={DemoDay} />
           <Route component={NotFoundPage} />
         </Switch>
         <Footer />
