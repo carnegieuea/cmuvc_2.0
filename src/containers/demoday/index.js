@@ -2,9 +2,7 @@ import React from "react"
 import {
     Container,
     Row,
-    Col,
-    Button,
-  } from "reactstrap";
+    Col  } from "reactstrap";
 
 const DemoDay = () => {
     return (
