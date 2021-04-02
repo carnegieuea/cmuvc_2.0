@@ -27,7 +27,7 @@ const TransparentBg = styled.div`
   );
   padding: 2rem 0 2rem 0;
   @media only screen and (min-width: 768px) {
-    padding: 15rem 0 15rem 0;
+    padding: 5rem 0 5rem 0;
   }
 `;
 

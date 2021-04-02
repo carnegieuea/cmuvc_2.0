@@ -21,9 +21,9 @@ const Schedule = () => {
             </p>
           </Col>
           <Col md="4" className="py-md-0 py-5">
-            <h6 className="font-weight-bold">SCHEDULE OF EVENTS (Tentative)</h6>
+            <h6 className="font-weight-bold">SCHEDULE OF EVENTS (EST)</h6>
             <ul className="list-unstyled font-weight-bold text-info">
-              <li className="py-1">12pm : Introductions + Keynote Speaker</li>
+              <li className="py-1">12pm : Introductions + Keynote with Michael Seibel</li>
               <li className="py-1">12:30pm : Startup Pitches (Part I)</li>
               <li className="py-1">2:00pm : Lunch Break</li>
               <li className="py-1">2:30pm : Startup Pitches (Part II)</li>
