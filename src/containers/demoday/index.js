@@ -18,12 +18,12 @@ const DemoDay = () => {
             </Row>
         </Container>
         <div className="pb-4 text-center">
-            <iframe title="cmuvc-demo-day" width="560" height="315" src="https://www.youtube.com/embed/xXcTogvZPWc" frameborder="0" allowfullscreen></iframe>
+            <iframe title="cmuvc-demo-day" width="560" height="315" src="https://www.youtube.com/embed/cX1Y7eKCDmI" frameborder="0" allowfullscreen></iframe>
         </div>
         <div className="text-center pb-4">
             <Button
                 tag="a"
-                href="https://www.youtube.com/watch?v=xXcTogvZPWc"
+                href="https://www.youtube.com/watch?v=cX1Y7eKCDmI"
                 color="warning"
                 size="md"
                 className="mx-1"
