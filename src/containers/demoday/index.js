@@ -1,11 +1,13 @@
 import React from "react"
 import {
+    Button,
     Container,
     Row,
     Col  } from "reactstrap";
 
 const DemoDay = () => {
     return (
+        <>
         <Container className="py-5 text-center">
             <Row className="text-center">
                 <Col className="pb-4">
@@ -26,7 +28,7 @@ const DemoDay = () => {
                     >
                         View Demo Day
                     </Button> */}
-                    <div className="py-4">
+                    <div className="pt-4">
                         <h6 className="font-weight-bold">SCHEDULE OF EVENTS (EST)</h6>
                         <ul className="list-unstyled font-weight-bold text-info">
                             <li className="py-1">12pm : Introductions + Keynote with Michael Seibel</li>
@@ -40,6 +42,23 @@ const DemoDay = () => {
                 </Col>
             </Row>
         </Container>
+        <div className="pb-4 text-center">
+            <iframe title="cmuvc-demo-day" width="560" height="315" src="https://www.youtube.com/embed/xXcTogvZPWc" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div className="text-center pb-4">
+            <Button
+                tag="a"
+                href="https://www.youtube.com/watch?v=xXcTogvZPWc"
+                color="warning"
+                size="md"
+                className="mx-1"
+                target="_blank"
+                rel="noreferrer noopener"
+                >
+                    View Demo Day
+            </Button>
+        </div>
+        </>
     )
 }
 
