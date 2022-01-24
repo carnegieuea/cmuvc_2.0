@@ -44,16 +44,16 @@ const Details = () => {
                   <h5 className="font-weight-bold">Timeline</h5>
 
                   <p>
-                    <IoIosCalendar /> December 10, 2020 - Applications Open
+                    <IoIosCalendar /> January 10, 2022 - Applications Open
                   </p>
                   <p>
-                    <IoIosCalendar /> March 5, 2021 - Application Deadline
+                    <IoIosCalendar /> March 7, 2022 - Application Deadline
                   </p>
                   <p>
-                    <IoIosCalendar /> March 15, 2021 - Finalists Announced
+                    <IoIosCalendar /> March 25, 2022 - Finalists Announced
                   </p>
                   <p>
-                    <IoIosCalendar /> April 3, 2021 - Virtual Competition Finals
+                    <IoIosCalendar /> April 2, 2022 - Virtual Competition Finals
                   </p>
                 </CardBody>
               </Card>

@@ -18,7 +18,7 @@ const Apply = () => {
 
       <Button
         tag="a"
-        href="https://www.pralent.com/challenges/cmuvc-2021"
+        href="https://www.pralent.com/programs/cmuvc-2022"
         color="warning"
         size="lg"
         className="mx-1"

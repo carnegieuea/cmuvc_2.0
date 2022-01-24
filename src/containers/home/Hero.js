@@ -65,15 +65,15 @@ export default function Hero() {
               <Button tag={Link} to="/details" className="mx-2" color="light">
                 Competition Details
               </Button>
-              <Button tag={Link} to="/demo-day" className="mx-2" color="warning">
+              {/* <Button tag={Link} to="/demo-day" className="mx-2" color="warning">
                 Watch Demo Day
-              </Button>
+              </Button> */}
             </div>
 
             <div className="text-light mt-3">
               <h4>First Round Applications are Open!</h4>
-              {/* <h4>Round 1 Closes on March 5, 2021 @ 11:59pm EST</h4> */}
-              <h4>Demo Day on April 3, 2021 @ 12pm EST</h4>
+              <h4>Round 1 Closes on March 7, 2022 @ 11:59pm EST</h4>
+              {/* <h4>Demo Day on April 2, 2022 @ 12pm EST</h4> */}
             </div>
           </Container>
         </TransparentBg>
