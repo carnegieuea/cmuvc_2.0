@@ -8,7 +8,7 @@ const Speaker = () => {
         <Container className="py-md-5 py-3">
             <Row className="py-md-5 py-2">
                 <Col lg="7">
-                    <p className="lead text-uppercase">Keynote Speaker</p>
+                    <p className="lead text-uppercase">2021 Keynote Speaker</p>
                     <h1 className="font-weight-bold">
                         Michael Seibel
                     </h1>
