@@ -8,8 +8,10 @@ const AlertMsg = ({ display }) => {
       color="primary"
       className={`${!display && "d-none"} mb-0 my-auto text-center`}
     >
-      test CMU Venture Challenge Demo Day will start on April 3 @ 12pm EST.{" "}
-      <Link to="/demo-day">Watch Demo Day</Link>
+      CMU Venture Challenge Registration will close on March 7.{" "}
+      <Link to="/apply">Apply Here</Link>
+      {/* CMU Venture Challenge Demo Day will start on April 3 @ 12pm EST.{" "}
+      <Link to="/demo-day">Watch Demo Day</Link> */}
     </Alert>
   );
 };
