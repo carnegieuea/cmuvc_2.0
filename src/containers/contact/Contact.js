@@ -17,12 +17,12 @@ import AngelaImg from "../../assets/avatars/angela.jpg";
 import ArleenImg from "../../assets/avatars/Arleen.jpg";
 
 const people = [
-  {
-    name: "Snehita Sana",
-    email: "ssana@andrew.cmu.edu",
-    avatar: SnehitaImg,
-    role: "Lead Director",
-  },
+  // {
+  //   name: "Snehita Sana",
+  //   email: "ssana@andrew.cmu.edu",
+  //   avatar: SnehitaImg,
+  //   role: "Lead Director",
+  // },
   {
     name: "Avika Bansal",
     email: "avikab@andrew.cmu.edu",
@@ -41,18 +41,18 @@ const people = [
     avatar: ArleenImg,
     role: "Director",
   },
-  {
-    name: "Samarth Gowda",
-    email: "sgowda@andrew.cmu.edu",
-    avatar: SamarthImg,
-    role: "President UEA",
-  },
-  {
-    name: "Eric Liang",
-    email: "esliang@andrew.cmu.edu",
-    avatar: EricImg,
-    role: "Executive Board UEA",
-  },
+  // {
+  //   name: "Samarth Gowda",
+  //   email: "sgowda@andrew.cmu.edu",
+  //   avatar: SamarthImg,
+  //   role: "President UEA",
+  // },
+  // {
+  //   name: "Eric Liang",
+  //   email: "esliang@andrew.cmu.edu",
+  //   avatar: EricImg,
+  //   role: "Executive Board UEA",
+  // },
 ];
 
 const Contact = () => {
