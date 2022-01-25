@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { Alert } from "reactstrap";
 
 const AlertMsg = ({ display }) => {
-  return null;
   return (
     <Alert
       color="primary"
