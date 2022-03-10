@@ -31,7 +31,7 @@ const About = () => {
         <Col md="4">
           {" "}
           <h6 className="font-weight-bold">WHEN</h6>
-          <h5 className="font-weight-bold text-danger">March 7, 2022</h5>
+          <h5 className="font-weight-bold text-danger">March 14, 2022</h5>
           <h5 className="font-weight-bold">March 25, 2022</h5>
           <h5 className="font-weight-bold">April 2, 2022</h5>
         </Col>

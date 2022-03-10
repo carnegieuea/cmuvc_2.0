@@ -47,7 +47,7 @@ const Details = () => {
                     <IoIosCalendar /> January 10, 2022 - Applications Open
                   </p>
                   <p>
-                    <IoIosCalendar /> March 7, 2022 - Application Deadline
+                    <IoIosCalendar /> March 14, 2022 - Application Deadline
                   </p>
                   <p>
                     <IoIosCalendar /> March 25, 2022 - Finalists Announced

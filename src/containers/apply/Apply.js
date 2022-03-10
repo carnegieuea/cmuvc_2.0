@@ -8,7 +8,7 @@ const Apply = () => {
       <h5 className="pt-md-5 pb-md-3">
         Applications for the Carnegie Mellon Venture Challenge 2021 are open.
         Applications will close{" "}
-        <strong>Monday, March 7, 2022 at 11:59pm EST</strong>. Applications will
+        <strong>Monday, March 14, 2022 at 11:59pm EST</strong>. Applications will
         take place on the Pralent platform. Click on the Begin Application
         button below to get started. If you would like to learn more or have any
         other questions, please visit our{" "}
