@@ -1,11 +1,9 @@
 {
-  "name": "cmuvc-test",
-  "homepage:": "https://www.cmuvc.com",
+  "name": "cmuvc",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "gh-pages": "^3.2.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
@@ -15,8 +13,6 @@
     "styled-components": "^4.3.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
