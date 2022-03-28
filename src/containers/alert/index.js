@@ -8,8 +8,7 @@ const AlertMsg = ({ display }) => {
       color="primary"
       className={`${!display && "d-none"} mb-0 my-auto text-center`}
     >
-      CMU Venture Challenge Registration is open until March 14.{" "}
-      <Link to="/apply">Apply Here</Link>
+      Finalists Will be Announced on Tuesday, March 29.
       {/* CMU Venture Challenge Demo Day will start on April 3 @ 12pm EST.{" "}
       <Link to="/demo-day">Watch Demo Day</Link> */}
     </Alert>
