@@ -50,7 +50,7 @@ const Details = () => {
                     <IoIosCalendar /> March 14, 2022 - Application Deadline
                   </p>
                   <p>
-                    <IoIosCalendar /> March 25, 2022 - Finalists Announced
+                    <IoIosCalendar /> March 29, 2022 - Finalists Announced
                   </p>
                   <p>
                     <IoIosCalendar /> April 2, 2022 - Virtual Competition Finals

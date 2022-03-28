@@ -71,8 +71,8 @@ export default function Hero() {
             </div>
 
             <div className="text-light mt-3">
-              <h4>First Round Applications are Open!</h4>
-              <h4>Round 1 Closes on March 14, 2022 @ 11:59pm EST</h4>
+              {/* <h4>First Round Applications are Open!</h4> */}
+              <h4>Finalists will be announced on March 29, 2022</h4>
               {/* <h4>Demo Day on April 2, 2022 @ 12pm EST</h4> */}
             </div>
           </Container>

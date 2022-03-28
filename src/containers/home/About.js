@@ -24,18 +24,19 @@ const About = () => {
       <Row className="py-md-2 py-1">
         <Col md="5">
           <h6 className="font-weight-bold">WHERE</h6>
-          <h5 className="font-weight-bold text-danger">Application Deadline</h5>
-          <h5 className="font-weight-bold">Finalists Announced</h5>
+          <h5 className="font-weight-bold">Application Deadline</h5>
+          <h5 className="font-weight-bold text-danger">Finalists Announced</h5>
           <h5 className="font-weight-bold">Virtual Competition Finals</h5>
         </Col>
         <Col md="4">
           {" "}
           <h6 className="font-weight-bold">WHEN</h6>
-          <h5 className="font-weight-bold text-danger">March 14, 2022</h5>
-          <h5 className="font-weight-bold">March 25, 2022</h5>
+          <h5 className="font-weight-bold">March 14, 2022</h5>
+          <h5 className="font-weight-bold text-danger">March 29, 2022</h5>
           <h5 className="font-weight-bold">April 2, 2022</h5>
         </Col>
         <Col md="3" className="text-center">
+          <h5></h5>
           <Button
             color="danger"
             outline
