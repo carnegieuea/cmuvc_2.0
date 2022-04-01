@@ -36,7 +36,6 @@ const About = () => {
           <h5 className="font-weight-bold">April 2, 2022</h5>
         </Col>
         <Col md="3" className="text-center">
-          <h5></h5>
           <Button
             color="danger"
             outline
