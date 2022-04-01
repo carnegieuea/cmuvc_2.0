@@ -9,9 +9,6 @@ import {
   Button,
 } from "reactstrap";
 import { IoMdMail } from "react-icons/io";
-import SamarthImg from "../../assets/avatars/samarth.JPG";
-import SnehitaImg from "../../assets/avatars/Snehita.jpg";
-import EricImg from "../../assets/avatars/Eric.jpg";
 import AvikaImg from "../../assets/avatars/Avika.jpg";
 import AngelaImg from "../../assets/avatars/angela.jpg";
 import ArleenImg from "../../assets/avatars/Arleen.jpg";
