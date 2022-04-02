@@ -1,28 +1,35 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import michael from "../../assets/avatars/michael.png"
+import timzheng from "../../assets/avatars/timzheng.jpeg";
 
 const Speaker = () => {
   return (
-      <div className="bg-dark text-white">
-        <Container className="py-md-5 py-3">
-            <Row className="py-md-5 py-2">
-                <Col lg="7">
-                    <p className="lead text-uppercase">2021 Keynote Speaker</p>
-                    <h1 className="font-weight-bold">
-                        Michael Seibel
-                    </h1>
-                    <p className="lead text-uppercase">CEO & Partner @ Y Combinator</p>
-                    <p className="font-weight-normal">
-                    Michael Seibel is a Partner at YC and CEO of YC's startup accelerator. He was the cofounder and CEO Justin.tv and Socialcam. Socialcam sold to Autodesk in 2012 and under the leadership of Emmett Shear, Justin.tv became Twitch.tv and sold to Amazon in 2014. Before getting into startups, he spent a year as the finance director for a US Senate campaign and in 2005, Michael graduated from Yale University with a BA in political science.
-                    </p>
-                </Col>
-                <Col lg="5">
-                    <img src={michael} alt="michael-seibel-yc" className="rounded-circle d-block w-75 mx-auto" />
-                   
-                </Col>
-            </Row>
-        </Container>
+    <div className="bg-dark text-white">
+      <Container className="py-md-5 py-3">
+        <Row className="py-md-5 py-2">
+          <Col lg="7">
+            <p className="lead text-uppercase">2022 Keynote Speaker</p>
+            <h1 className="font-weight-bold">Tim Zheng</h1>
+            <p className="lead text-uppercase">CEO and Co-founder of Apollo</p>
+            <p className="font-weight-normal">
+              Tim Zheng is the CEO and Co-Founder of Apollo.io. Apollo, a
+              YCombinator alumni, recently announced a Series C led by Sequoia
+              Capital of $110 million, bringing their total funding to over $150
+              million. Before launching Apollo in 2015, the Massachusetts-born
+              entrepreneur founded, built and sold e-learning platform
+              BrainGenie. Zheng graduated from MIT in 2011, where he studied
+              Math and CS.
+            </p>
+          </Col>
+          <Col lg="5">
+            <img
+              src={timzheng}
+              alt="tim-zheng-apollo"
+              className="rounded-circle d-block w-75 mx-auto"
+            />
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };

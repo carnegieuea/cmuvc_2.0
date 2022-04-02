@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Alert } from "reactstrap";
 
 const AlertMsg = ({ display }) => {
@@ -7,7 +8,10 @@ const AlertMsg = ({ display }) => {
       color="primary"
       className={`${!display && "d-none"} mb-0 my-auto text-center`}
     >
-      Finalists Will be Announced on Tuesday, March 29.
+      <span role="img" aria-label="unicorn-emoji">
+        🦄
+      </span>{" "}
+      Watch Demo Day livestream - <Link to="/demo-day">Click here</Link>
     </Alert>
   );
 };

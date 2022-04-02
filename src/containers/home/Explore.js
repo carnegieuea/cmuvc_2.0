@@ -30,11 +30,15 @@ const Explore = () => {
           <Col md="4" className="py-md-0 py-5">
             <h6 className="font-weight-bold">SCHEDULE OF EVENTS (EST)</h6>
             <ul className="list-unstyled font-weight-bold text-info">
-              <li className="py-1">12pm : Introductions + Keynote speaker TBA</li>
+              <li className="py-1">
+                12pm : Introductions + Keynote speaker Tim Zheng
+              </li>
               <li className="py-1">12:30pm : Startup Pitches (Part I)</li>
               <li className="py-1">2:00pm : Lunch Break</li>
               <li className="py-1">2:30pm : Startup Pitches (Part II)</li>
-              <li className="py-1">4:00pm : Networking Session and Judges Deliberation</li>
+              <li className="py-1">
+                4:00pm : Networking Session and Judges Deliberation
+              </li>
               <li className="py-1">4:30pm : Awards</li>
             </ul>
           </Col>
