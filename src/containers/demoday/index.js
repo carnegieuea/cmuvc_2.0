@@ -18,7 +18,7 @@ const DemoDay = () => {
           title="cmuvc-demo-day"
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/I10GdZ__V9E"
+          src="https://www.youtube.com/watch?v=Jhx9OJPJWAc"
           frameborder="0"
           allowfullscreen
         ></iframe>
@@ -26,7 +26,7 @@ const DemoDay = () => {
       <div className="text-center pb-4">
         <Button
           tag="a"
-          href="https://www.youtube.com/watch?v=I10GdZ__V9E"
+          href="https://www.youtube.com/watch?v=Jhx9OJPJWAc"
           color="warning"
           size="md"
           className="mx-1"
