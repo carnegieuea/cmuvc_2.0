@@ -18,7 +18,7 @@ const DemoDay = () => {
           title="cmuvc-demo-day"
           width="560"
           height="315"
-          src="https://www.youtube.com/watch?v=Jhx9OJPJWAc"
+          src="https://www.youtube.com/embed/Jhx9OJPJWAc"
           frameborder="0"
           allowfullscreen
         ></iframe>
