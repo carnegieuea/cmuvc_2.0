@@ -11,8 +11,7 @@ const AlertMsg = ({ display }) => {
       <span role="img" aria-label="unicorn-emoji">
         🦄
       </span>{" "}
-      Watch Demo Day livestream -{" "}
-      <Link to="https://www.youtube.com/watch?v=Jhx9OJPJWAc">Click here</Link>
+      Watch Demo Day livestream - <Link to="/demo-day">Click here</Link>
     </Alert>
   );
 };
