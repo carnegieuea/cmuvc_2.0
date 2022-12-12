@@ -27,7 +27,7 @@ const people = [
     role: "Director",
   },
   {
-    name: "Angela Sun",
+    name: "Angela Sun 1",
     email: "angelasu@andrew.cmu.edu",
     avatar: AngelaImg,
     role: "Director",
