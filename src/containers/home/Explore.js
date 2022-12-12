@@ -28,7 +28,7 @@ const Explore = () => {
             </Button>
           </Col>
           <Col md="4" className="py-md-0 py-5">
-            <h6 className="font-weight-bold">SCHEDULE OF EVENTS (EST)</h6>
+            <h6 className="font-weight-bold">2022 SCHEDULE OF EVENTS (EST)</h6>
             <ul className="list-unstyled font-weight-bold text-info">
               <li className="py-1">
                 12pm : Introductions + Keynote speaker Tim Zheng

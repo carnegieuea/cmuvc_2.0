@@ -45,130 +45,130 @@ const SponsorsWrapper = styled.div`
 const MAIN_PARTNERS = [
   {
     src: SWARTZ,
-    alt: "SWARTZ",
+    alt: "SWARTZ"
   },
   {
     src: TEPPER,
-    alt: "TEPPER",
+    alt: "TEPPER"
   },
   {
     src: ACCEL,
-    alt: "ACCEL",
+    alt: "ACCEL"
   },
   {
     src: MUSLAW,
-    alt: "MUSLAW",
+    alt: "MUSLAW"
   },
   {
     src: ACG,
-    alt: "ACG",
+    alt: "ACG"
   },
   {
     src: PVCA,
-    alt: "PVCA",
+    alt: "PVCA"
   },
   {
     src: AIKENHOUSE,
-    alt: "AIKENHOUSE",
+    alt: "AIKENHOUSE"
   },
   {
     src: TWOSIGMA,
-    alt: "TWOSIGMA",
+    alt: "TWOSIGMA"
   },
   {
     src: FRESHWORKS,
-    alt: "FRESHWORKS",
+    alt: "FRESHWORKS"
   },
   {
     src: CHOOLAAH,
-    alt: "CHOOLAAH",
+    alt: "CHOOLAAH"
   },
   {
     src: HEROKU,
-    alt: "HEROKU",
+    alt: "HEROKU"
   },
   {
     src: SCS,
-    alt: "SCS",
-  },
+    alt: "SCS"
+  }
 ];
 
 const OTHER_PARTNERS = [
   {
     src: SEQUOIA,
-    alt: "SEQUOIA",
+    alt: "SEQUOIA"
   },
   {
     src: DUOLINGO,
-    alt: "DUOLINGO",
+    alt: "DUOLINGO"
   },
 
   {
     src: DRAPER,
-    alt: "DRAPER",
+    alt: "DRAPER"
   },
 
   {
     src: CONTRARY,
-    alt: "CONTRARY",
+    alt: "CONTRARY"
   },
   {
     src: GGV,
-    alt: "GGV",
+    alt: "GGV"
   },
 
   {
     src: SALESFORCE,
-    alt: "SALESFORCE",
+    alt: "SALESFORCE"
   },
   {
     src: GENERALCATALYST,
-    alt: "GENERALCATALYST",
+    alt: "GENERALCATALYST"
   },
   {
     src: ALPHALAB,
-    alt: "ALPHALAB",
+    alt: "ALPHALAB"
   },
   {
     src: BLUETREE,
-    alt: "BLUETREE",
+    alt: "BLUETREE"
   },
   {
     src: INNOSPRING,
-    alt: "INNOSPRING",
+    alt: "INNOSPRING"
   },
   {
     src: INNOVATIONWORKS,
-    alt: "INNOVATIONWORKS",
+    alt: "INNOVATIONWORKS"
   },
   {
     src: GROUSERIDGE,
-    alt: "GROUSERIDGE",
+    alt: "GROUSERIDGE"
   },
   {
     src: DIETRICH,
-    alt: "DIETRICH",
+    alt: "DIETRICH"
   },
   {
     src: SENATE,
-    alt: "SENATE",
+    alt: "SENATE"
   },
   {
     src: CAMPUSVC,
-    alt: "CAMPUSVC",
+    alt: "CAMPUSVC"
   },
   {
     src: SDC,
-    alt: "SDC",
+    alt: "SDC"
   },
   {
     src: DRF,
-    alt: "DRF",
+    alt: "DRF"
   },
   {
     src: RDV,
-    alt: "RDV",
-  },
+    alt: "RDV"
+  }
 ];
 
 const DisplayPartners = ({ partners: PARTNERS }) => {
@@ -197,14 +197,14 @@ const Partners = ({ learnMore, displayAll }) => {
     <Container className="py-md-5 py-3">
       <Row className="py-md-5">
         <Col className="pb-4" lg="8">
-          <h1 className="font-weight-bolder">Our sponsors.</h1>
+          <h1 className="font-weight-bolder">Our past sponsors.</h1>
           <p className={`lead font-weight-normal${learnMore ? `` : ` d-none`}`}>
             Want to help launch the generation of innovators?{" "}
             <Link to="/contact" className="text-decoration-none text-muted">
               Contact us
             </Link>{" "}
             for information about sponsoring, judging, and speaking at the CMU
-            VC 2021.
+            VC 2023.
           </p>
 
           <Button

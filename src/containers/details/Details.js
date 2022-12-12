@@ -6,7 +6,7 @@ import {
   Button,
   CardDeck,
   Card,
-  CardBody,
+  CardBody
 } from "reactstrap";
 import { Link } from "react-router-dom";
 import { IoIosCheckmarkCircle, IoIosCalendar } from "react-icons/io";
@@ -18,7 +18,7 @@ const Details = () => {
         <Row className="py-md-3">
           <Col className="pb-4" lg="8">
             <h3 className="font-weight-bolder">
-              Competition Details
+              2022 Competition Details
               <Button
                 tag={Link}
                 to="/contact"
@@ -30,9 +30,9 @@ const Details = () => {
               </Button>
             </h3>
             <p className="lead font-weight-normal">
-              All Dates, Prizes, Requirements, and other details for the CMU VC
-              are subject to change. Please check back at this page for the
-              latest information.
+              All Dates, Prizes, Requirements, and other details on this page
+              are from 2022. Please check back at this page for the latest
+              information for our 2023 Competition!
             </p>
           </Col>
         </Row>
@@ -146,7 +146,7 @@ const Details = () => {
         </Row>
         <Row className="py-md-5 py-3">
           <Col md="12" className="py-md-5 py-3">
-            <h3 className="font-weight-bolder mb-0">Prizes</h3>
+            <h3 className="font-weight-bolder mb-0">Prizes from CMU VC 2022</h3>
             <small className="pt-0">
               Legal Services Sponsored by Meyer Unkovic Scott
             </small>

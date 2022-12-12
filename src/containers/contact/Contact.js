@@ -6,38 +6,42 @@ import {
   Card,
   CardBody,
   CardTitle,
-  Button,
+  Button
 } from "reactstrap";
 import { IoMdMail } from "react-icons/io";
-import AvikaImg from "../../assets/avatars/Avika.jpg";
-import AngelaImg from "../../assets/avatars/angela.jpg";
-import ArleenImg from "../../assets/avatars/Arleen.jpg";
+// import AvikaImg from "../../assets/avatars/Avika.jpg";
+// import AngelaImg from "../../assets/avatars/angela.jpg";
+// import ArleenImg from "../../assets/avatars/Arleen.jpg";
+import RoshniImg from "../../assets/avatars/Roshni.jpg";
+import ColemanImg from "../../assets/avatars/Coleman.jpg";
+import KhushiImg from "../../assets/avatars/Khushi.jpg";
+import TejasImg from "../../assets/avatars/Tejas.jpg";
 
 const people = [
-  // {
-  //   name: "Snehita Sana",
-  //   email: "ssana@andrew.cmu.edu",
-  //   avatar: SnehitaImg,
-  //   role: "Lead Director",
-  // },
   {
-    name: "Avika Bansal",
-    email: "avikab@andrew.cmu.edu",
-    avatar: AvikaImg,
-    role: "Director",
+    name: "Roshni Surpur",
+    email: "rsurpur@andrew.cmu.edu",
+    avatar: RoshniImg,
+    role: "Director"
   },
   {
-    name: "Angela Sun 1",
-    email: "angelasu@andrew.cmu.edu",
-    avatar: AngelaImg,
-    role: "Director",
+    name: "Coleman Isner",
+    email: "cisner@andrew.cmu.edu",
+    avatar: ColemanImg,
+    role: "Director"
   },
   {
-    name: "Arleen Liu",
-    email: "arleenl@andrew.cmu.edu",
-    avatar: ArleenImg,
-    role: "Director",
+    name: "Khushi Wadhwa",
+    email: "khushiw@andrew.cmu.edu",
+    avatar: KhushiImg,
+    role: "Director"
   },
+  {
+    name: "Tejas Venkatesh",
+    email: "tvenkate@andrew.cmu.edu",
+    avatar: TejasImg,
+    role: "Director"
+  }
   // {
   //   name: "Samarth Gowda",
   //   email: "sgowda@andrew.cmu.edu",
@@ -73,7 +77,7 @@ const Contact = () => {
           {people &&
             people.map((p, index) => {
               return (
-                <Col sm="12" md="6" lg="4" key={index}>
+                <Col sm="12" md="6" lg="3" key={index}>
                   <Card className="p-0 mb-4 shadow">
                     <img
                       className="card-img-top shadow"

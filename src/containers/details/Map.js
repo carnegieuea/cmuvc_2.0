@@ -4,11 +4,11 @@ import { Container, Row, Col, Button } from "reactstrap";
 const Zoom = () => {
   return (
     <Container className="py-md-5 py-3 text-dark">
-      <Row className="py-2">
+      {/* <Row className="py-2">
         <Col md="8">
           <h1 className="font-weight-bold pb-md-3">Join us Virtually!</h1>
           <p className="lead font-weight-normal">
-            The CMU VC 2021 will take place virtually. More details to follow
+            The CMU VC 2020 took place virtually. More details to follow
             soon. All are welcomed and encouraged to attend the event online.
           </p>
         </Col>
@@ -24,11 +24,11 @@ const Zoom = () => {
               color="info"
               style={{ borderRadius: "25px" }}
             >
-              View Last Year's Pitches
+              View Pitches from our 2020 Competition
             </Button>
           </a>
-        </Col>
-      </Row>
+        </Col> 
+      </Row>*/}
     </Container>
   );
 };

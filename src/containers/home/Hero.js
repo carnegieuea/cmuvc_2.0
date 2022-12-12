@@ -40,7 +40,7 @@ export default function Hero() {
           backgroundAttachment: "fixed",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
-          backgroundSize: "cover",
+          backgroundSize: "cover"
         }}
         fluid
         className="text-center py-0 my-0"
@@ -49,17 +49,16 @@ export default function Hero() {
           <Container className="text-white">
             <div className="py-md-4">
               <HeroH1>Carnegie Mellon Venture Challenge</HeroH1>
-              <h2 className="text-uppercase font-weight-bold">Powered by</h2>
+              {/* <h2 className="text-uppercase font-weight-bold">Powered by</h2>
               <img
                 src={Accel}
                 alt="Accel-Gold-Sponsor"
                 style={{ height: "85px", width: "auto" }}
-              />
+              /> */}
             </div>
             <h4>
               Annual international startup competition to win seed funding,
-              legal services, and mentorship. Compete for over $100K in total
-              prizes.
+              legal services, and mentorship.
             </h4>
             <div className="py-3">
               <Button tag={Link} to="/details" className="mx-2" color="light">
@@ -78,7 +77,7 @@ export default function Hero() {
 
             <div className="text-light mt-3">
               {/* <h4>First Round Applications are Open!</h4> */}
-              <h4>Demo Day on April 2, 2022 @ 12pm EST</h4>
+              <h4>Demo Day on April 8, 2023 </h4>
             </div>
           </Container>
         </TransparentBg>

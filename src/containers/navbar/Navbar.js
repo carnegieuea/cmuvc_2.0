@@ -8,7 +8,7 @@ import {
   Nav,
   NavItem,
   NavLink,
-  Button,
+  Button
 } from "reactstrap";
 import { Link } from "react-router-dom";
 
@@ -17,12 +17,12 @@ export default class MainNavbar extends React.Component {
     super(props);
     this.toggle = this.toggle.bind(this);
     this.state = {
-      isOpen: false,
+      isOpen: false
     };
   }
   toggle() {
     this.setState({
-      isOpen: !this.state.isOpen,
+      isOpen: !this.state.isOpen
     });
   }
 
@@ -33,7 +33,7 @@ export default class MainNavbar extends React.Component {
           <NavbarBrand tag={Link} to="/" className="text-white">
             <h4 className="mb-0 font-weight-bold">CMU Venture Challenge</h4>
             <p className="mb-0" style={{ fontSize: "0.75rem" }}>
-              Powered by Accel | Demo Day on April 2, 2022
+              Demo Day on April 8, 2023
             </p>
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} className="border-0" />

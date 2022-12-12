@@ -8,7 +8,7 @@ const DemoDay = () => {
         <Row className="text-center">
           <Col className="pb-4">
             <h1 className="display-5 font-weight-bolder text-black">
-              Demo Day 2022
+              Demo Day 2020
             </h1>
           </Col>
         </Row>
@@ -18,7 +18,7 @@ const DemoDay = () => {
           title="cmuvc-demo-day"
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/Jhx9OJPJWAc"
+          src="https://www.youtube.com/watch?v=J195GeYPf3g&t=6597s"
           frameborder="0"
           allowfullscreen
         ></iframe>
@@ -26,7 +26,7 @@ const DemoDay = () => {
       <div className="text-center pb-4">
         <Button
           tag="a"
-          href="https://www.youtube.com/watch?v=Jhx9OJPJWAc"
+          href="https://www.youtube.com/watch?v=J195GeYPf3g&t=6597s"
           color="warning"
           size="md"
           className="mx-1"
@@ -38,7 +38,7 @@ const DemoDay = () => {
       </div>
       <div>
         <Container className="pt-4 text-center">
-          <h6 className="font-weight-bold">SCHEDULE OF EVENTS (EST)</h6>
+          <h6 className="font-weight-bold">2022 SCHEDULE OF EVENTS (EST)</h6>
           <ul className="list-unstyled font-weight-bold text-info">
             <li className="py-1">
               12pm : Introductions + Keynote with Tim Zheng

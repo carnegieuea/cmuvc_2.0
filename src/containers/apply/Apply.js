@@ -6,8 +6,8 @@ const Apply = () => {
   return (
     <Container className="py-5 text-center">
       <h5 className="pt-md-5 pb-md-3">
-        Applications for the Carnegie Mellon Venture Challenge have closed.{" "}
-        <br></br>
+        Applications for the Carnegie Mellon Venture Challenge will open January 
+        1st, 2023. <br></br>
         {/* Applications will close{" "}
         <strong>Monday, March 14, 2022 at 11:59pm EST</strong>. Applications will
         take place on the Pralent platform. Click on the Begin Application

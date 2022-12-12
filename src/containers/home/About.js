@@ -23,17 +23,19 @@ const About = () => {
       </Row>
       <Row className="py-md-2 py-1">
         <Col md="5">
-          <h6 className="font-weight-bold">WHERE</h6>
+          <h6 className="font-weight-bold">Timeline</h6>
+          <h5 className="font-weight-bold">Application Opens</h5>
           <h5 className="font-weight-bold">Application Deadline</h5>
           <h5 className="font-weight-bold text-danger">Finalists Announced</h5>
-          <h5 className="font-weight-bold">Virtual Competition Finals</h5>
+          <h5 className="font-weight-bold"> Competition Demo Day</h5>
         </Col>
         <Col md="4">
           {" "}
           <h6 className="font-weight-bold">WHEN</h6>
-          <h5 className="font-weight-bold">March 14, 2022</h5>
-          <h5 className="font-weight-bold text-danger">March 29, 2022</h5>
-          <h5 className="font-weight-bold">April 2, 2022</h5>
+          <h5 className="font-weight-bold">January 1, 2023</h5>
+          <h5 className="font-weight-bold">March 1, 2023</h5>
+          <h5 className="font-weight-bold">March 15, 2023</h5>
+          <h5 className="font-weight-bold">April 8, 2023</h5>
         </Col>
         <Col md="3" className="text-center">
           <Button
